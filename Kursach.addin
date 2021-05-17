@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Kursach</Text>
+    <Description>Some description for Kursach</Description>
+    <Assembly>Kursach.dll</Assembly>
+    <FullClassName>Kursach.Command</FullClassName>
+    <ClientId>6003367f-b8c0-458a-906e-e9bb89065172</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application Kursach</Name>
+    <Assembly>Kursach.dll</Assembly>
+    <FullClassName>Kursach.App</FullClassName>
+    <ClientId>603e460a-8b49-416e-8ce9-b5e8a8bd1d77</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
